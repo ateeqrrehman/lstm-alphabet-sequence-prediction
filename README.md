@@ -65,9 +65,6 @@ The workflow here is foundational for tackling much more complex sequence predic
 
 ## 🚩 Project Overview
 
-```
-```
-
 - **Problem:** Predict the next letter in the alphabet using only the current letter as input.
 - **Solution:** Train an LSTM neural network to learn the mapping from each letter to its successor.
 - **Key Features:**
@@ -97,10 +94,9 @@ lstm-alphabet-sequence-prediction/
 ├── README.md                                     # This file
 └── .gitignore
 
-````
-
+```
 ## 🏃‍♂️ How to Run
-
+```
 1. **Clone this repo:**
     ```bash
     git clone https://github.com/yourusername/lstm-alphabet-sequence-prediction.git
@@ -119,21 +115,20 @@ lstm-alphabet-sequence-prediction/
     ```bash
     python src/alphabet_lstm.py
     ```
-
 ```
 ## 📈 Results
-
+```
 | Layers | Hidden Size | Learning Rate | Train Acc (%) | Val Acc (%) |
 |--------|-------------|--------------|---------------|-------------|
 |   2    |     32      |    0.01      |     99.90     |    99.80    |
 |   1    |     32      |    0.01      |     99.50     |    99.30    |
 |   3    |     32      |    0.01      |     99.95     |    99.85    |
-
+```
 <img src="results/plots/lstm_layers_vs_accuracy.png" width="450">
 ```
 ```
 ## 🧑‍💻 What I Learned
-
+```
 - How to prepare and encode sequence data for neural networks
 - How to build and train LSTM models in Keras/TensorFlow
 - Why and how to tune hyperparameters in deep learning
@@ -141,13 +136,13 @@ lstm-alphabet-sequence-prediction/
 - How to document and present a deep learning project
 ```
 ```
-
+```
 ## 📚 References
 
 - [Keras Documentation](https://keras.io/)
 - [TensorFlow Documentation](https://www.tensorflow.org/)
 - See `report.md` for my detailed project reflection
-
+```
 ```
 ```
 
