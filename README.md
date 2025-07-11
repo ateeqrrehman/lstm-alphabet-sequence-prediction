@@ -10,7 +10,7 @@ A Keras/TensorFlow deep learning project using LSTM to predict the next letter i
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
 
 ---
-
+```
 ## 📖 Project Question
 
 **LSTM is widely used because the architecture overcomes the vanishing and exploding gradient problem that plagues all recurrent neural networks, allowing very large and very deep networks to be created.**
@@ -33,17 +33,22 @@ A Keras/TensorFlow deep learning project using LSTM to predict the next letter i
 > 10. Experiment with two LSTM layers and then vary the number of layers, comparing performance (with plots/tables).  
 > 11. Vary hyperparameters (learning rate, hidden size, number of layers) and show their effect on accuracy (with supporting plots/tables).  
 
+
+```
 ---
 ---
 > Reasonable performance should generate an accuracy of over 80%.
 
 ---
 ---
+```
 
 ## 🤔 Why Deep Learning? Why This Project?
 
 Sequence modeling is at the core of many modern deep learning applications, from language modeling and text generation to speech recognition and time series analysis.  
 LSTM (Long Short-Term Memory) networks are a special kind of RNN architecture that excel at capturing long-term dependencies and overcoming the "vanishing gradient" problem.
+
+```
 
 This project, while a simple "toy" example, demonstrates the **full end-to-end pipeline for sequence modeling using LSTMs**:
 - **Data preprocessing** (turning letters into numbers, scaling, encoding)
@@ -51,11 +56,17 @@ This project, while a simple "toy" example, demonstrates the **full end-to-end p
 - **Experimentation** with architecture and hyperparameters
 - **Evaluation** and visualization of results
 
+
 The workflow here is foundational for tackling much more complex sequence prediction problems in the real world.
+
 ---
 ---
+```
 
 ## 🚩 Project Overview
+
+```
+```
 
 - **Problem:** Predict the next letter in the alphabet using only the current letter as input.
 - **Solution:** Train an LSTM neural network to learn the mapping from each letter to its successor.
@@ -65,11 +76,12 @@ The workflow here is foundational for tackling much more complex sequence predic
     - Hyperparameter tuning and clear experiment analysis
     - Easy-to-understand reporting with tables and plots
 
----
----
+```
+```
 
 ## 📂 Repository Structure
 
+```
 ```
 
 lstm-alphabet-sequence-prediction/
@@ -111,6 +123,7 @@ lstm-alphabet-sequence-prediction/
     ```
 
 ---
+```
 
 ## 📈 Results
 
@@ -122,7 +135,9 @@ lstm-alphabet-sequence-prediction/
 
 <img src="results/plots/lstm_layers_vs_accuracy.png" width="450">
 
+```
 ---
+```
 
 ## 🧑‍💻 What I Learned
 
@@ -132,7 +147,9 @@ lstm-alphabet-sequence-prediction/
 - The importance of validation and experiment tracking
 - How to document and present a deep learning project
 
+```
 ---
+```
 
 ## 📚 References
 
@@ -140,15 +157,13 @@ lstm-alphabet-sequence-prediction/
 - [TensorFlow Documentation](https://www.tensorflow.org/)
 - See `report.md` for my detailed project reflection
 
+```
 ---
+```
 
 ## 🙏 Acknowledgments
 
 - Developed as a deep learning class project and personal learning exercise.
 - Inspired by standard sequence modeling tutorials and the Keras documentation.
 
----
-
-````
-
----
+```
