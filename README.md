@@ -1,18 +1,6 @@
 # lstm-alphabet-sequence-prediction
 A Keras/TensorFlow deep learning project using LSTM to predict the next letter in the alphabet. Complete pipeline: data prep, modeling, hyperparameter tuning, and results visualization.
 
-Absolutely! Here is your **final, polished `README.md`** ready for your GitHub repo.
-This includes:
-
-* The project question (from your assignment)
-* Why this is relevant for deep learning
-* A clear overview, usage, and learning outcomes
-* Example results
-* How to run everything
-* Professional formatting
-
----
-
 ```markdown
 # 🧠🔤 LSTM Alphabet Sequence Prediction
 
