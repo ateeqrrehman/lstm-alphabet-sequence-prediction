@@ -99,8 +99,6 @@ lstm-alphabet-sequence-prediction/
 
 ````
 
----
-
 ## 🏃‍♂️ How to Run
 
 1. **Clone this repo:**
@@ -122,9 +120,7 @@ lstm-alphabet-sequence-prediction/
     python src/alphabet_lstm.py
     ```
 
----
 ```
-
 ## 📈 Results
 
 | Layers | Hidden Size | Learning Rate | Train Acc (%) | Val Acc (%) |
@@ -134,11 +130,8 @@ lstm-alphabet-sequence-prediction/
 |   3    |     32      |    0.01      |     99.95     |    99.85    |
 
 <img src="results/plots/lstm_layers_vs_accuracy.png" width="450">
-
 ```
----
 ```
-
 ## 🧑‍💻 What I Learned
 
 - How to prepare and encode sequence data for neural networks
@@ -146,9 +139,7 @@ lstm-alphabet-sequence-prediction/
 - Why and how to tune hyperparameters in deep learning
 - The importance of validation and experiment tracking
 - How to document and present a deep learning project
-
 ```
----
 ```
 
 ## 📚 References
@@ -158,7 +149,6 @@ lstm-alphabet-sequence-prediction/
 - See `report.md` for my detailed project reflection
 
 ```
----
 ```
 
 ## 🙏 Acknowledgments
