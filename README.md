@@ -135,15 +135,11 @@ lstm-alphabet-sequence-prediction/
 - The importance of validation and experiment tracking
 - How to document and present a deep learning project
 ```
-```
-```
 ## 📚 References
 
 - [Keras Documentation](https://keras.io/)
 - [TensorFlow Documentation](https://www.tensorflow.org/)
 - See `report.md` for my detailed project reflection
-```
-```
 ```
 
 ## 🙏 Acknowledgments
